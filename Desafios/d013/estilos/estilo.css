@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    position: absolute;
+
+    left: 14%;
+}
+
+table {
+    position: absolute;
+}
+
+caption {
+    padding: 10px;
+}
+
+#d2 {
+    top: 100px;
+    left: 20%;
+}
+
+#d1, #d2 {
+    width: 300px;
+
+    top: 100px;
+}
+
+#d1 td, #d2 td {
+    padding: 10px;
+    border: 1px solid darkgray;
+    text-align: center;
+}
+
+#d3 {
+    border-collapse: collapse;
+    width: 680px;
+
+    top: 380px;
+}
+
+#d3 td {
+    border: 1px solid darkgray;
+    padding: 5px;
+    text-align: left;
+}
+
+#d3 th {
+    border: 1px solid darkgray;
+    padding: 5px;
+    text-align: center;
+}
