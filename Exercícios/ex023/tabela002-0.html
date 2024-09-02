@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <style>
+        * {
+            margin: auto;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        table {
+            position: relative;
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(131, 131, 131);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        th, td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+
+        }
+
+        thead, tfoot {
+            background-color: rgb(131, 131, 131);
+            color: white;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        caption {
+            background-color: lightgray;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 973 190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 322 692</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 664 306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 058 447</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total:</th>
+                <td class="num"><strong>157.917.092</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo exercitationem perspiciatis soluta, unde, debitis labore quas laboriosam alias eligendi commodi. Quasi, sint? Facilis optio facere ullam velit quod maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet nemo quam. Consectetur iure explicabo quos amet expedita modi culpa blanditiis iusto quisquam laborum. Eligendi ullam quis pariatur dolore asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis fugit placeat repellat deserunt molestias perspiciatis, vitae a eligendi consequuntur sunt assumenda numquam reiciendis eos quasi cupiditate aspernatur aut ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sequi magni vero veritatis delectus labore error temporibus dolores, consequatur modi assumenda iure expedita omnis facilis magnam fuga libero obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime nesciunt debitis repudiandae accusantium saepe sed aliquid dolore assumenda, quos aperiam neque delectus deleniti deserunt quidem similique temporibus. Veritatis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium? Nemo tenetur nobis culpa recusandae quod, atque, obcaecati illo fuga totam quo aspernatur labore dolorem! Doloribus quae recusandae impedit hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo exercitationem perspiciatis soluta, unde, debitis labore quas laboriosam alias eligendi commodi. Quasi, sint? Facilis optio facere ullam velit quod maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet nemo quam. Consectetur iure explicabo quos amet expedita modi culpa blanditiis iusto quisquam laborum. Eligendi ullam quis pariatur dolore asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis fugit placeat repellat deserunt molestias perspiciatis, vitae a eligendi consequuntur sunt assumenda numquam reiciendis eos quasi cupiditate aspernatur aut ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sequi magni vero veritatis delectus labore error temporibus dolores, consequatur modi assumenda iure expedita omnis facilis magnam fuga libero obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime nesciunt debitis repudiandae accusantium saepe sed aliquid dolore assumenda, quos aperiam neque delectus deleniti deserunt quidem similique temporibus. Veritatis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium? Nemo tenetur nobis culpa recusandae quod, atque, obcaecati illo fuga totam quo aspernatur labore dolorem! Doloribus quae recusandae impedit hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo exercitationem perspiciatis soluta, unde, debitis labore quas laboriosam alias eligendi commodi. Quasi, sint? Facilis optio facere ullam velit quod maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet nemo quam. Consectetur iure explicabo quos amet expedita modi culpa blanditiis iusto quisquam laborum. Eligendi ullam quis pariatur dolore asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis fugit placeat repellat deserunt molestias perspiciatis, vitae a eligendi consequuntur sunt assumenda numquam reiciendis eos quasi cupiditate aspernatur aut ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sequi magni vero veritatis delectus labore error temporibus dolores, consequatur modi assumenda iure expedita omnis facilis magnam fuga libero obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime nesciunt debitis repudiandae accusantium saepe sed aliquid dolore assumenda, quos aperiam neque delectus deleniti deserunt quidem similique temporibus. Veritatis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium? Nemo tenetur nobis culpa recusandae quod, atque, obcaecati illo fuga totam quo aspernatur labore dolorem! Doloribus quae recusandae impedit hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo exercitationem perspiciatis soluta, unde, debitis labore quas laboriosam alias eligendi commodi. Quasi, sint? Facilis optio facere ullam velit quod maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet nemo quam. Consectetur iure explicabo quos amet expedita modi culpa blanditiis iusto quisquam laborum. Eligendi ullam quis pariatur dolore asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis fugit placeat repellat deserunt molestias perspiciatis, vitae a eligendi consequuntur sunt assumenda numquam reiciendis eos quasi cupiditate aspernatur aut ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sequi magni vero veritatis delectus labore error temporibus dolores, consequatur modi assumenda iure expedita omnis facilis magnam fuga libero obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime nesciunt debitis repudiandae accusantium saepe sed aliquid dolore assumenda, quos aperiam neque delectus deleniti deserunt quidem similique temporibus. Veritatis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium? Nemo tenetur nobis culpa recusandae quod, atque, obcaecati illo fuga totam quo aspernatur labore dolorem! Doloribus quae recusandae impedit hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo exercitationem perspiciatis soluta, unde, debitis labore quas laboriosam alias eligendi commodi. Quasi, sint? Facilis optio facere ullam velit quod maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet nemo quam. Consectetur iure explicabo quos amet expedita modi culpa blanditiis iusto quisquam laborum. Eligendi ullam quis pariatur dolore asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis fugit placeat repellat deserunt molestias perspiciatis, vitae a eligendi consequuntur sunt assumenda numquam reiciendis eos quasi cupiditate aspernatur aut ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sequi magni vero veritatis delectus labore error temporibus dolores, consequatur modi assumenda iure expedita omnis facilis magnam fuga libero obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime nesciunt debitis repudiandae accusantium saepe sed aliquid dolore assumenda, quos aperiam neque delectus deleniti deserunt quidem similique temporibus. Veritatis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium? Nemo tenetur nobis culpa recusandae quod, atque, obcaecati illo fuga totam quo aspernatur labore dolorem! Doloribus quae recusandae impedit hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo exercitationem perspiciatis soluta, unde, debitis labore quas laboriosam alias eligendi commodi. Quasi, sint? Facilis optio facere ullam velit quod maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet nemo quam. Consectetur iure explicabo quos amet expedita modi culpa blanditiis iusto quisquam laborum. Eligendi ullam quis pariatur dolore asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis fugit placeat repellat deserunt molestias perspiciatis, vitae a eligendi consequuntur sunt assumenda numquam reiciendis eos quasi cupiditate aspernatur aut ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sequi magni vero veritatis delectus labore error temporibus dolores, consequatur modi assumenda iure expedita omnis facilis magnam fuga libero obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime nesciunt debitis repudiandae accusantium saepe sed aliquid dolore assumenda, quos aperiam neque delectus deleniti deserunt quidem similique temporibus. Veritatis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium? Nemo tenetur nobis culpa recusandae quod, atque, obcaecati illo fuga totam quo aspernatur labore dolorem! Doloribus quae recusandae impedit hic!</p>
+
+</body>
+</html>
