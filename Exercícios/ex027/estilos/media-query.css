@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media print {
+    nav {
+        display: none;
+    }
+    main::after {
+        content: 'Impressão feita por Kemac =)';
+    }
+}
