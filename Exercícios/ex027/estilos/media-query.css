@@ -8,3 +8,23 @@
         content: 'Impressão feita por Kemac =)';
     }
 }
+
+/* Resolução de Tablets */
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 768px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+    }
+    
+    span#burguer {
+        display: none;
+    }
+}
