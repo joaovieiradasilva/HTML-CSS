@@ -12,11 +12,13 @@ body {
 div.container {
     display: flex;
     background-color: lightcoral;
-    flex-flow: row wrap-reverse;
+    flex-flow: row wrap;
+    height: 400px;
+    align-content: space-evenly;
 }
 
 div.item {
     background-color: lightgreen;
     text-align: center;
-    padding: 10px;
+    padding: 40px;
 }
