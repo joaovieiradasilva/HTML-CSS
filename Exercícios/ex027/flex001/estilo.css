@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 10px;
+}
+
+div.container {
+    display: flex;
+    background-color: lightcoral;
+}
+
+div.item {
+    background-color: lightgreen;
+    flex: auto;
+    text-align: center;
+}
