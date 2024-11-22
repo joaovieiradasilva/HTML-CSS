@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 10px;
+}
+
+div.container {
+    display: flex;
+    background-color: lightcoral;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    border: 1px solid gray;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#i1 {
+    flex: 0 1 250px;
+}
+#i2 {
+    flex: 2 0 250px;
+}
+#i3 {
+    flex: 1 2 250px;
+}
